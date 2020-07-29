@@ -33,6 +33,9 @@ $('.tabs__list li').click(function(event) {
 	parent.find('.tabs__content').hide();
 	var selectTab = $(this).find('a').attr("href");
 	$(selectTab).fadeIn();
+	$('html, body').animate({
+		scrollTop: $( selectTab ).offset().top - 50
+	}, 1000);
 });
 
 $(window).scroll(function () {

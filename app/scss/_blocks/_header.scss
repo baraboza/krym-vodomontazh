@@ -54,6 +54,13 @@
 		font-size: 22px;
 		font-weight: 800;
 		color: #337caa;
+
+		span {
+
+			&:first-child {
+				display: none;
+			}
+		}
 	}
 
 	&__callback {
@@ -177,7 +184,18 @@
 			}
 		}
 
-		&__contacts {
+		&__tel {
+
+			span:first-child {
+				display: block;
+			}
+
+			span:last-child {
+				display: none;
+			}
+		}
+
+		&__callback {
 			display: none;
 		}
 	}

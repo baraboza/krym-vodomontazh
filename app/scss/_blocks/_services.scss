@@ -8,14 +8,15 @@
 
 	&__head {
 		display: flex;
-		align-items: flex-end;
+		align-items: center;
 		justify-content: space-between;
 	}
 
-	&__title {
+	&__desc {
 		max-width: 720px;
 		font-size: 24px;
 		line-height: normal;
+		margin-top: 10px;
 	}
 
 	&__tabs {
@@ -184,9 +185,9 @@
 			align-items: center;
 		}
 
-		&__title {
+		&__desc {
 			text-align: center;
-			font-size: 20px;
+			font-size: 18px;
 		}
 
 		&__button-portfolio {
